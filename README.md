@@ -33,13 +33,13 @@ Extra:
 3. **Lägg till en CSS-klass** för att göra den aktiva länken tydlig (t.ex. fetstil eller en annan färg).
 
 ## Övning 7: Använda Outlet för layout med delad navigering
-1. Skapa en komponent som heter Layout som innehåller en gemensam navigeringsmeny.
-2. Använd Outlet-komponenten från React Router för att rendera barnkomponenterna inom Layout-komponenten.
-3. Definiera rutter för sidorna `Home`, `About`, och `Contact`, alla inbäddade under Layout, så att de delar samma layout (t.ex. samma navigering och sidhuvud).
+1. **Skapa en komponent** som heter Layout som innehåller en gemensam navigeringsmeny.
+2. **Använd Outlet-komponenten** från React Router för att rendera barnkomponenterna inom Layout-komponenten.
+3. **Definiera rutter** för sidorna `Home`, `About`, och `Contact`, alla inbäddade under Layout, så att de delar samma layout (t.ex. samma navigering och sidhuvud).
 
 ## Övning 8: Flerstegsformulär med inbäddade routes
-* Skapa en komponent som heter Signup som fungerar som en övergripande komponent för ett flerstegsformulär.
-* Skapa tre delkomponenter: `Step1`, `Step2`, och `Step3`, som representerar olika steg i formuläret (t.ex. Personlig Information, Kontouppgifter, och Sammanfattning).
-* Använd inbäddade routes för att visa respektive steg inuti Signup-komponenten. Lägg till navigeringsknappar (**Nästa**, **Tillbaka**) för att flytta mellan stegen.
+* **Skapa en komponent** som heter Signup som fungerar som en övergripande komponent för ett flerstegsformulär.
+* **Skapa tre delkomponenter:** `Step1`, `Step2`, och `Step3`, som representerar olika steg i formuläret (t.ex. Personlig Information, Kontouppgifter, och Sammanfattning).
+* **Använd inbäddade routes** för att visa respektive steg inuti Signup-komponenten. Lägg till navigeringsknappar (**Nästa**, **Tillbaka**) för att flytta mellan stegen.
 * Se till att bara en delkomponent visas åt gången och att användaren kan navigera fram och tillbaka mellan stegen utan att lämna Signup-komponenten.
 
