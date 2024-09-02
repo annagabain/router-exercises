@@ -39,7 +39,7 @@ Extra:
 
 ## Övning 8: Flerstegsformulär med inbäddade routes
 * Skapa en komponent som heter Signup som fungerar som en övergripande komponent för ett flerstegsformulär.
-* Skapa tre delkomponenter: Step1, Step2, och Step3, som representerar olika steg i formuläret (t.ex. Personlig Information, Kontouppgifter, och Sammanfattning).
-* Använd inbäddade routes för att visa respektive steg inuti Signup-komponenten. Lägg till navigeringsknappar (Nästa, Tillbaka) för att flytta mellan stegen.
+* Skapa tre delkomponenter: `Step1`, `Step2`, och `Step3, som representerar olika steg i formuläret (t.ex. Personlig Information, Kontouppgifter, och Sammanfattning).
+* Använd inbäddade routes för att visa respektive steg inuti Signup-komponenten. Lägg till navigeringsknappar (**Nästa**, **Tillbaka**) för att flytta mellan stegen.
 * Se till att bara en delkomponent visas åt gången och att användaren kan navigera fram och tillbaka mellan stegen utan att lämna Signup-komponenten.
 
