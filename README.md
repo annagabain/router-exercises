@@ -35,7 +35,7 @@ Extra:
 ## Övning 7: Använda Outlet för layout med delad navigering
 1. Skapa en komponent som heter Layout som innehåller en gemensam navigeringsmeny.
 2. Använd Outlet-komponenten från React Router för att rendera barnkomponenterna inom Layout-komponenten.
-3. Definiera rutter för sidorna Home, About, och Contact, alla inbäddade under Layout, så att de delar samma layout (t.ex. samma navigering och sidhuvud).
+3. Definiera rutter för sidorna `Home`, `About`, och `Contact`, alla inbäddade under Layout, så att de delar samma layout (t.ex. samma navigering och sidhuvud).
 
 ## Övning 8: Flerstegsformulär med inbäddade routes
 * Skapa en komponent som heter Signup som fungerar som en övergripande komponent för ett flerstegsformulär.
