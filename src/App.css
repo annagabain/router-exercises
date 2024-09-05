@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+.card {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+}

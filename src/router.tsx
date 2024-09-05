@@ -4,7 +4,7 @@ import {Home} from './components/Home';
 import {About }from './components/About';
 import {Contact} from './components/Contact';
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
@@ -16,4 +16,3 @@ const router = createBrowserRouter([
   },
 ]);
 
-export default router;
